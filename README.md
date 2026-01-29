@@ -5,27 +5,32 @@ Tech Stack: Python, R, CSV, GitHub
 This project demonstrates automated processing, validation, and reporting of institutional-style data (e.g., enrollment, courses, departments, terms). Python is used for data ingestion and cleaning, while R is used to generate analytical summaries and visualizations.
 
 Repository Structure:
+* data/
 
-institutional-data-pipeline/
-├── data/
-│   ├── raw/
-│   │   ├── enrollment_raw.csv
-│   │   ├── courses.csv
-│   │   └── departments.csv
-│   └── processed/
-│       └── enrollment_processed.csv
-├── python/
-│   ├── ingest_validate.py
-│   └── data_quality_checks.py
-├── r/
-│   └── reporting_analysis.R
-├── outputs/
-│   ├── total_credits_department.png
-│   ├── enrollment_credit_distribution.png
-│   ├── enrollment_by_discipline.png
-│   └── avg_credit_score_by_discipline.png
-├── README.md
-└── requirements.txt
+  * raw/
+
+    * enrollment_raw.csv
+    * courses.csv
+    * departments.csv
+  * processed/
+
+    * enrollment_processed.csv
+* python/
+
+  * ingest_validate.py
+  * data_quality_checks.py
+* r/
+
+  * reporting_analysis.R
+* outputs/
+
+  * total_credits_department.png
+  * enrollment_credit_distribution.png
+  * enrollment_by_discipline.png
+  * avg_credit_score_by_discipline.png
+* README.txt
+* requirements.txt
+
 
 Features:
 
